@@ -1,5 +1,20 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+.register{
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.register button{
+  padding: 0.5rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  background-color: #76ABAE;
 }
 
 .App-logo {

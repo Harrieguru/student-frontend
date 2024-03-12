@@ -1,0 +1,62 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 10px;
+    justify-content: center;
+}
+  
+label {
+    text-align: left;
+    padding-right: 10px;
+}
+  
+input {
+    width: 15%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+  
+label, input {
+    grid-row: auto; 
+}
+  
+label {
+    grid-column: 1;
+}
+  
+input {
+    grid-column: 2;
+}
+
+button{
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+.add-student-btn{
+    width: 15%;
+    background-color: #4CCD99;
+    cursor: pointer;
+    color: black;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.update-student-btn{
+    width: 15%;
+    background-color: #4CCD99;
+    cursor: pointer;
+    color: black;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+  
+  
